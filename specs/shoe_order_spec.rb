@@ -26,6 +26,10 @@ class TestShoeOrder < MiniTest::Test
     assert_equal("Bloggs", @shoe_order.last_name)
   end
 
+  def test_full_name
+    assert_equal("Johnny Bloggs", @shoe_order.full_name)
+  end
+
 
 
 
