@@ -33,7 +33,10 @@ class TestShoeOrder < MiniTest::Test
   def test_address
     assert_equal("23 Crag Street, Edinburgh, EH3 12TY", @shoe_order.address)
   end
-
+ 
+  def test_quantity_is_a_fixnum
+    assert_equal(2, @shoe_order.quantity)
+  end
 
 
 
