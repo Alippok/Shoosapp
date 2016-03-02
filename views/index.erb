@@ -1,0 +1,22 @@
+<div class="index">
+  <h1>Pre-orders</h1>
+  <% @shoe_order.each do |order|  %>
+
+  <b>Name:</b>
+  <p><%= order.full_name %></p>
+
+  <b>Delivery Address:</b>
+  <p><%= order.address %></p>
+
+  <b>Quantity:</b>
+  <p><%= order.quantity%></p>
+
+  <b>Size:</b>
+  <p><%= order.size %></p>
+
+  <hr>
+
+
+
+  <% end %>
+</div>
