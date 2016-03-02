@@ -30,6 +30,10 @@ class TestShoeOrder < MiniTest::Test
     assert_equal("Johnny Bloggs", @shoe_order.full_name)
   end
 
+  def test_address
+    assert_equal("23 Crag Street, Edinburgh, EH3 12TY", @shoe_order.address)
+  end
+
 
 
 
