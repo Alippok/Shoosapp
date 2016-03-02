@@ -1,2 +1,10 @@
 body{
     font-family: 'Nunito', sans-serif;
+    background-color:black;
+}
+header{
+  color:white;
+}
+div{
+  background-color:white;
+}
