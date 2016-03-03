@@ -3,28 +3,28 @@
   <fieldset>
   <legend>Your Details</legend>
     <label>First name:</label>
-    <input type="text" name="first_name">
+    <input type="text" name="first_name" required>
 
     <label>Last name:</label>
-    <input type="text" name="last_name">
+    <input type="text" name="last_name" required>
 
     <label>First line of your address:</label>
-    <input type="text" name="first_address_line">
+    <input type="text" name="first_address_line" required>
 
     <label>City:</label>
-    <input type="text" name="city">
+    <input type="text" name="city" required>
 
     <label>Postcode:</label> 
-    <input type="text" name="postcode">
+    <input type="text" name="postcode" required>
   </fieldset>
 
   <fieldset>
   <legend>Your Order</legend>
     <label>Quantity:</label>
-    <input type="number" name="quantity">
+    <input type="number" name="quantity" required>
 
     <label>Size</label>
-    <select name="size">
+    <select name="size" >
       <option value="7">7</option>
       <option value="8">8</option>
       <option value="9">9</option>
@@ -32,16 +32,6 @@
       <option value="11">11</option>
     </select>
   </fieldset>
-
-
-
-
-
-
-
-
-
-
-
+  <button type="submit">Place order</button>
 
 </form>
