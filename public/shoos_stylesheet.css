@@ -6,6 +6,23 @@ header{
   color:white;
   font-size:5vw;
 }
+.logo1{
+  background-color:white;
+  width:97%;
+  height:0.2%;
+  position:absolute;
+  top:9%;
+  left:0.8%;
+}
+.logo2{
+  background-color:rgba(244,88,68,0.8);
+  position:absolute;
+  width:97%;
+  height:1px;
+  position:absolute;
+  top:8%;
+  left:0.8%;
+}
 div{
   position:relative;
   border-radius:5px;
@@ -16,25 +33,34 @@ div{
   text-align:center;
 }
 
+#form_title{
+  font-size:3vw;
+}
 fieldset{
-  margin-bottom:30px;
+  margin-bottom:10%;
   border-radius:5px;
   border:2px solid #f45844;
+
 }
 
 legend{
-  font-size:20px;
+  font-size:1.5vw;
 }
 
 label{
   display:block;
+  font-size:1vw;
 }
 
 input{
-  margin-bottom:20px;
-  height:18px;
+  margin-bottom:10%;
+  height:10%;
+  width:50%;
   font-size:18px;
   border-radius:5px;
+}
+input:focus{
+  outline-color:#f45844;
 }
 button{
   height:60px;
@@ -54,4 +80,23 @@ button:hover{
 button:active{
   box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.5) inset;
   outline:none;
+}
+
+
+.summary_box{
+  position:relative;
+  left:18%;
+  border:2px solid #f45844;
+  margin-bottom:2%;
+  width:60%;
+  box-shadow:0px 0px 5px black;
+  background-color: white;
+}
+
+.summary_title{
+  margin-top:-3%;
+}
+
+.index_title{
+  width:50%;
 }
